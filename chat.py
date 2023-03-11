@@ -1,6 +1,9 @@
 import openai
 
-openai.api_key = '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'
+# This module is responsible for interacting with OPENAI API
+# Current model GPT 3.5 Turbo
+
+openai.api_key = '<YOUR_OPENAI_TOKEN>'
 
 # Initial instructions
 with open('bot_config.txt', 'r') as file:

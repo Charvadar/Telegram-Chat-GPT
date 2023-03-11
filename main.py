@@ -6,7 +6,7 @@ from chat import outreq, get_conv
 from sql import upd, getuser, new_user, get_conversation
 from datetime import datetime
 
-tkn = '5924711064:AAHeiO9ObQoNbGXoAa09csnC23IeYcQvFOM'
+tkn = '<YOUR_TELEGRAM_BOT_TOKEN>'
 
 try:
     from telegram import __version_info__
